@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.PaymentGateway.Api", "BL.PaymentGateway.Api\BL.PaymentGateway.Api.csproj", "{FD6022B5-09AA-4D1D-98C1-FF6990920063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.PaymentGateway.Infrastructure", "BL.PaymentGateway.Infrastructure\BL.PaymentGateway.Infrastructure.csproj", "{16F8F8B3-D509-4B2F-A2B2-30CF1DC3FD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BL.PaymentGateway.Domain", "BL.PaymentGateway.Domain\BL.PaymentGateway.Domain.csproj", "{3D1D3A26-9760-4A50-A146-1FEF12C547AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4A9F4F3-28AA-44F9-94BE-76A2B6B761DF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{21FBEC17-1CF2-463B-8B91-7A3074687ABE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD6022B5-09AA-4D1D-98C1-FF6990920063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD6022B5-09AA-4D1D-98C1-FF6990920063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD6022B5-09AA-4D1D-98C1-FF6990920063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD6022B5-09AA-4D1D-98C1-FF6990920063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F8F8B3-D509-4B2F-A2B2-30CF1DC3FD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F8F8B3-D509-4B2F-A2B2-30CF1DC3FD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F8F8B3-D509-4B2F-A2B2-30CF1DC3FD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F8F8B3-D509-4B2F-A2B2-30CF1DC3FD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1D3A26-9760-4A50-A146-1FEF12C547AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1D3A26-9760-4A50-A146-1FEF12C547AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1D3A26-9760-4A50-A146-1FEF12C547AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1D3A26-9760-4A50-A146-1FEF12C547AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD6022B5-09AA-4D1D-98C1-FF6990920063} = {D4A9F4F3-28AA-44F9-94BE-76A2B6B761DF}
+		{3D1D3A26-9760-4A50-A146-1FEF12C547AF} = {D4A9F4F3-28AA-44F9-94BE-76A2B6B761DF}
+		{16F8F8B3-D509-4B2F-A2B2-30CF1DC3FD01} = {D4A9F4F3-28AA-44F9-94BE-76A2B6B761DF}
+	EndGlobalSection
+EndGlobal
